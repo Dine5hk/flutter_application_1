@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
     return Scaffold(
       appBar: AppBar(
+        title: Text(widget.title),
  
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
